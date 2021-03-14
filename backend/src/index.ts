@@ -7,6 +7,7 @@ import { buildSchema } from "type-graphql";
 import { createConnection } from "typeorm";
 import { Restaurant } from "./entities/Restaurant";
 import { RestaurantResolver } from "./resolvers/restaurant";
+
 const app = express();
 
 const main = async () => {
